@@ -11,4 +11,8 @@ void power(int base, int exponent)
 
 int main()
 {
+	power(2, 3);
+
+	system("pause");
+	return 0;
 }
