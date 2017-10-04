@@ -2,11 +2,11 @@
 
 using namespace std;
 
-void square(int val)
+void power(int base, int exponent)
 {
-	//Add a void function called square() that takes an int value to be squared.Have the function print the squared value
-	int retval = val * val;
-	cout << "The squared value of " << val << " is: " << retval << endl;
+	//Change the name of the function to be called power and have it take an int base and an int exponent.Print the base number raised to the exponent power.
+	int retval = pow((double)base, exponent);
+	cout << base << "^" << exponent << " is: " << retval << endl;
 }
 
 int main()
